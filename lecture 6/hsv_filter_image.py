@@ -24,7 +24,7 @@ calibration_linear_size = 61 # pixel
 # hsv  (1, 82, 172) (217, 157, 218)
 while (True):
     # success, frame = cam.read()
-    frame = cv2.imread('main.bmp')
+    frame = cv2.imread('ball_unknown_distance.jpg')
     #frame[100 : 550, 100 : 550, 0] = 240
     #frame[:, :, 2] += 50
     
